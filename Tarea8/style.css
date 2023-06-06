@@ -1,0 +1,262 @@
+@font-face
+{
+    font-family: Krinkes;
+    src: url(KrinkesDecorPERSONAL.ttf);
+}
+
+body
+{
+    background-image: url(https://i.pinimg.com/originals/0b/b3/ba/0bb3ba38d2b79039f4c7caa275fe07f7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+header 
+{
+    background-color: rgb(247, 158, 24);
+    position: fixed;
+    font-size: xx-large;
+    justify-content: center;
+    align-content: center;
+    margin-top: -2rem;
+    display: flex;
+    width: 100%;
+    margin-block: 1rem;
+    z-index: 1;
+}
+
+main
+{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+footer
+{
+    background-image: url(https://img.freepik.com/vector-gratis/fondo-logotipos-redes-sociales_69286-204.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+}
+
+/* Empiezan los articles*/
+
+article.Pres
+{
+    background-color: rgb(252, 194, 87);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    margin: 2rem;
+    margin-top: 5rem;
+    height: 432px;
+    width: 40%;
+    border-radius: 10%;
+    padding: 2rem;
+}
+
+article.Gus
+{
+    background-color: rgb(252, 194, 87);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    margin: 2rem;
+    margin-top: 5rem;
+    height: 432px;
+    width: 40%;
+    border-radius: 10%;
+    padding: 2rem;
+}
+
+article.Rank
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    margin: 2rem;
+    height: auto;
+    width: 100%;
+    padding: 3rem;
+    overflow: hidden;
+}
+
+article.Fin
+{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    height: 40rem;
+    width: 100%;
+    padding: 2rem;
+
+}
+
+/*Empizan los Div*/
+
+div.Lis
+{
+    background-color: rgb(252, 194, 87);
+    text-align: center;
+    flex-wrap: wrap;
+    width: 25%;
+    border-radius: 10%;
+    
+}
+
+div.Pres
+{
+
+    text-align: center;
+    width: 50%;
+    height: auto;
+}
+
+div.Gus
+{
+    text-align: center;
+    width: 50%;
+    height: auto;
+}
+
+div.Tab
+{
+    background-color: rgb(252, 194, 87);
+    justify-content: center;
+    align-content: center;
+    margin: 2rem;
+    height: 30rem;
+    width: 50%;
+    border-radius: 10%;
+    padding: 2rem;
+    overflow-y: scroll;
+
+}
+
+div.Redes
+{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    width: 10%;
+    height: 50%;
+}
+
+* div
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
+/* Empieza dibujo*/
+
+div.cara
+{
+    background-color: rgb(255, 251, 0);
+    padding: 5rem;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border-radius: 50%;
+    display: flex;
+    height: 20rem;
+    width: 20rem;
+
+}
+
+div.Ojo
+{
+    background-color: rgb(0, 0, 0);
+    border-radius: 100%;
+    margin: 15%;
+    height: 2rem;
+    width: 2rem;
+}
+
+div.Boca
+{
+    background-color: rgb(0, 0, 0);
+    border-radius: 0% 0% 100% 100%;
+    width: 75%;
+    height: 2rem;
+    overflow: hidden;
+}
+div.Boca:hover
+{
+    background-color: rgb(85, 81, 81);
+    transform: scale(1.5);
+    border-radius: 25%;
+    width: 75%;
+    height: 5rem;
+    overflow-y: scroll;
+}
+
+/* Empiezan las imagenes*/
+
+img.Pres
+{
+    height: 17rem;
+    width: 15rem;
+}
+
+img.Gus
+{
+    height: 17rem;
+    width: 15rem;
+    border-radius: 10%;
+}
+
+img.Init
+{
+    height: 5rem;
+    width: 5rem;
+
+}
+
+img.Ranked
+{
+
+    height: 10rem;
+    width: 15rem;
+}
+
+/* Miscelaneos */
+
+table.Pers
+{
+    border-image-slice: 27 27 27 27;
+    border-image-width: 20px 20px 20px 20px;
+    border-image-outset: 0px 0px 0px 0px;
+    border-image-repeat: repeat repeat;
+    border-image-source: url("https://mdn.github.io/css-examples/tools/border-image-generator/border-image-1.png");
+    border-style: solid;
+    padding: 2rem;
+    background-color: rgb(255, 166, 0);
+    flex-wrap: wrap;
+}
+
+h1
+{
+    font-family: 'krinkes';
+    font-size: x-large;
+}
+
+h2
+{
+    font-size: xx-large;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    justify-self: center;
+}
+
+a.Redes
+{
+    font-size: xx-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgb(15, 203, 228);
+}
